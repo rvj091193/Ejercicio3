@@ -1,0 +1,921 @@
+fileFormatVersion: 2
+guid: 0522229f73ecf4243bb4f63b02f42413
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Head_Ctrl
+    100002: Head_End_joint
+    100004: Head_joint
+    100006: Jaw_Ctrl
+    100008: Jaw_joint
+    100010: Jaw_joint_End
+    100012: L_Ankle_Grp
+    100014: L_Ankle_joint
+    100016: L_Arm_Ctrl
+    100018: L_Arm_joint
+    100020: L_Ball_joint
+    100022: L_Ball_Roll
+    100024: L_BallGrp
+    100026: L_BigToe_End_joint
+    100028: L_BigToe_end_joint
+    100030: L_BigToe_joint
+    100032: L_Ear_Ctrl
+    100034: L_Ear_End_joint
+    100036: L_Ear_joint
+    100038: L_Elbow_joint
+    100040: L_Eye
+    100042: L_Foot_Ctrl
+    100044: L_Foot_joint
+    100046: L_Hand_joint
+    100048: L_Hip_joint
+    100050: L_IK_Ankle
+    100052: L_IK_Ball
+    100054: L_IK_Toe
+    100056: L_Knee_joint
+    100058: L_LittleToe_End_joint
+    100060: L_LittleToe_End_joint 1
+    100062: L_LittleToe_joint
+    100064: L_MiddleToe_End_joint
+    100066: L_MiddleToe_joint
+    100068: L_Pole_Vector
+    100070: L_Shoulder_Ctrl
+    100072: L_Shoulder_joint
+    100074: L_Toe_Ctrl01
+    100076: L_Toe_Ctrl02
+    100078: L_Toe_Ctrl03
+    100080: L_Toe_TapGrp
+    100082: Master_Ctrl
+    100084: Neck_Ctrl
+    100086: Neck_ioint
+    100088: Nose
+    100090: nurbsCube1
+    100092: nurbsCube2
+    100094: nurbsCube3
+    100096: nurbsCube4
+    100098: Pedo_Bear_Body
+    100100: //RootNode
+    100102: R_Ankle_Grp
+    100104: R_Ankle_joint
+    100106: R_Arm_Ctrl
+    100108: R_Arm_joint
+    100110: R_Ball_Grp
+    100112: R_Ball_joint
+    100114: R_Ball_Roll
+    100116: R_BigToe_joint
+    100118: R_Ear_Ctrl
+    100120: R_Ear_End_joint
+    100122: R_Ear_joint
+    100124: R_Elbow_joint
+    100126: R_Eye
+    100128: R_Foot_Ctrl
+    100130: R_Foot_joint
+    100132: R_Hand_joint
+    100134: R_Hip_joint
+    100136: R_IK_Ankle
+    100138: R_IK_Ball
+    100140: R_IK_Toe
+    100142: R_Knee_joint
+    100144: R_LittleToe_joint
+    100146: R_MiddleToe_End_joint
+    100148: R_MiddleToe_joint
+    100150: R_Pole_Vector
+    100152: R_Shoulder_Ctrl
+    100154: R_Shoulder_joint
+    100156: R_Toe_Ctrl01
+    100158: R_Toe_Ctrl02
+    100160: R_Toe_Ctrl03
+    100162: R_Toe_Grp
+    100164: Root_Ctrl
+    100166: Root_joint
+    100168: Spine01_joint
+    100170: Spine02_joint
+    100172: Spine03_joint
+    100174: Spine_Ctrl01
+    100176: Spine_Ctrl02
+    100178: Spine_Ctrl03
+    100180: Teddy_Bear_Mesh
+    400000: Head_Ctrl
+    400002: Head_End_joint
+    400004: Head_joint
+    400006: Jaw_Ctrl
+    400008: Jaw_joint
+    400010: Jaw_joint_End
+    400012: L_Ankle_Grp
+    400014: L_Ankle_joint
+    400016: L_Arm_Ctrl
+    400018: L_Arm_joint
+    400020: L_Ball_joint
+    400022: L_Ball_Roll
+    400024: L_BallGrp
+    400026: L_BigToe_End_joint
+    400028: L_BigToe_end_joint
+    400030: L_BigToe_joint
+    400032: L_Ear_Ctrl
+    400034: L_Ear_End_joint
+    400036: L_Ear_joint
+    400038: L_Elbow_joint
+    400040: L_Eye
+    400042: L_Foot_Ctrl
+    400044: L_Foot_joint
+    400046: L_Hand_joint
+    400048: L_Hip_joint
+    400050: L_IK_Ankle
+    400052: L_IK_Ball
+    400054: L_IK_Toe
+    400056: L_Knee_joint
+    400058: L_LittleToe_End_joint
+    400060: L_LittleToe_End_joint 1
+    400062: L_LittleToe_joint
+    400064: L_MiddleToe_End_joint
+    400066: L_MiddleToe_joint
+    400068: L_Pole_Vector
+    400070: L_Shoulder_Ctrl
+    400072: L_Shoulder_joint
+    400074: L_Toe_Ctrl01
+    400076: L_Toe_Ctrl02
+    400078: L_Toe_Ctrl03
+    400080: L_Toe_TapGrp
+    400082: Master_Ctrl
+    400084: Neck_Ctrl
+    400086: Neck_ioint
+    400088: Nose
+    400090: nurbsCube1
+    400092: nurbsCube2
+    400094: nurbsCube3
+    400096: nurbsCube4
+    400098: Pedo_Bear_Body
+    400100: //RootNode
+    400102: R_Ankle_Grp
+    400104: R_Ankle_joint
+    400106: R_Arm_Ctrl
+    400108: R_Arm_joint
+    400110: R_Ball_Grp
+    400112: R_Ball_joint
+    400114: R_Ball_Roll
+    400116: R_BigToe_joint
+    400118: R_Ear_Ctrl
+    400120: R_Ear_End_joint
+    400122: R_Ear_joint
+    400124: R_Elbow_joint
+    400126: R_Eye
+    400128: R_Foot_Ctrl
+    400130: R_Foot_joint
+    400132: R_Hand_joint
+    400134: R_Hip_joint
+    400136: R_IK_Ankle
+    400138: R_IK_Ball
+    400140: R_IK_Toe
+    400142: R_Knee_joint
+    400144: R_LittleToe_joint
+    400146: R_MiddleToe_End_joint
+    400148: R_MiddleToe_joint
+    400150: R_Pole_Vector
+    400152: R_Shoulder_Ctrl
+    400154: R_Shoulder_joint
+    400156: R_Toe_Ctrl01
+    400158: R_Toe_Ctrl02
+    400160: R_Toe_Ctrl03
+    400162: R_Toe_Grp
+    400164: Root_Ctrl
+    400166: Root_joint
+    400168: Spine01_joint
+    400170: Spine02_joint
+    400172: Spine03_joint
+    400174: Spine_Ctrl01
+    400176: Spine_Ctrl02
+    400178: Spine_Ctrl03
+    400180: Teddy_Bear_Mesh
+    2300000: Jaw_Ctrl
+    2300002: L_Ball_Roll
+    2300004: L_Foot_Ctrl
+    2300006: L_Pole_Vector
+    2300008: Master_Ctrl
+    2300010: R_Ball_Roll
+    2300012: R_Foot_Ctrl
+    2300014: R_Pole_Vector
+    3300000: Jaw_Ctrl
+    3300002: L_Ball_Roll
+    3300004: L_Foot_Ctrl
+    3300006: L_Pole_Vector
+    3300008: Master_Ctrl
+    3300010: R_Ball_Roll
+    3300012: R_Foot_Ctrl
+    3300014: R_Pole_Vector
+    4300000: Master_Ctrl
+    4300002: Jaw_Ctrl
+    4300004: L_Foot_Ctrl
+    4300006: L_Ball_Roll
+    4300008: R_Foot_Ctrl
+    4300010: R_Ball_Roll
+    4300012: L_Pole_Vector
+    4300014: R_Pole_Vector
+    4300016: Teddy_Bear_Mesh
+    4300018: L_Eye
+    4300020: R_Eye
+    4300022: Nose
+    9500000: //RootNode
+    13700000: L_Eye
+    13700002: Nose
+    13700004: R_Eye
+    13700006: Teddy_Bear_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Master_Ctrl
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Hip_joint
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Hip_joint
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Knee_joint
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Knee_joint
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Ankle_joint
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Ankle_joint
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine01_joint
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine02_joint
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck_ioint
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head_joint
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Shoulder_joint
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Shoulder_joint
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Arm_joint
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Arm_joint
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Elbow_joint
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Elbow_joint
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Hand_joint
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Hand_joint
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Ball_joint
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Ball_joint
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Ear_joint
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Ear_joint
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaw_joint
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: pedobear(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Master_Ctrl
+      position: {x: -.000118509401, y: -.00122931553, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Foot_Ctrl
+      position: {x: -.00176734105, y: .00145147229, z: -9.0054702e-05}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Ankle_Grp
+      position: {x: .00176734105, y: -.00193778495, z: 9.0054702e-05}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_BallGrp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_IK_Ankle
+      position: {x: -.00176734105, y: .00309406035, z: -.000634319673}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_IK_Ball
+      position: {x: -.00176734105, y: .00193778495, z: -9.0054702e-05}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Toe_TapGrp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_IK_Toe
+      position: {x: -.0017756453, y: .00180262839, z: .00208251085}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Ball_Roll
+      position: {x: -.000169963605, y: .000878716237, z: -.00219224603}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Toe_Ctrl01
+      position: {x: .000691146881, y: -.000204120821, z: .00326608331}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Toe_Ctrl02
+      position: {x: -.000379881472, y: -.000230016725, z: .00322706881}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Toe_Ctrl03
+      position: {x: -.00123456935, y: -.000283896225, z: .00316812447}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Pole_Vector
+      position: {x: -.00176734116, y: .00523880636, z: .00343979988}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Foot_Ctrl
+      position: {x: .00201339624, y: .00145147229, z: -9.00546802e-05}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Ankle_Grp
+      position: {x: -.00201339624, y: -.00193778495, z: 9.00546802e-05}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Ball_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_IK_Ankle
+      position: {x: .0019546058, y: .00309406035, z: -.000634319673}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_IK_Ball
+      position: {x: .00201339624, y: .00193778495, z: -9.00546802e-05}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Toe_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_IK_Toe
+      position: {x: .00207158597, y: .00180262839, z: .00208251085}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Ball_Roll
+      position: {x: -9.91608395e-05, y: .000878716237, z: -.00219224603}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Toe_Ctrl01
+      position: {x: -.000905074878, y: -.000283896399, z: .00316812447}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Toe_Ctrl02
+      position: {x: .000173262713, y: -.00023001674, z: .00322706881}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Toe_Ctrl03
+      position: {x: .00102700992, y: -.00020412069, z: .00326608331}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Pole_Vector
+      position: {x: .00194794347, y: .00523880636, z: .00343979942}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Root_Ctrl
+      position: {x: 3.33679623e-06, y: .0092869252, z: -6.93889375e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine_Ctrl01
+      position: {x: 5.42101074e-22, y: .00178791315, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine_Ctrl02
+      position: {x: -0, y: .00213620788, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine_Ctrl03
+      position: {x: -3.33679623e-06, y: .00166240777, z: 6.93889375e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Shoulder_Ctrl
+      position: {x: -.00401403522, y: 6.36773984e-05, z: 0}
+      rotation: {x: -2.60246241e-18, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Arm_Ctrl
+      position: {x: -.00329881045, y: -6.83691324e-05, z: -8.67361719e-21}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Neck_Ctrl
+      position: {x: 3.33679623e-06, y: .000822094909, z: 5.07406598e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head_Ctrl
+      position: {x: 1.08420215e-21, y: .000696589472, z: -5.07406598e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Jaw_Ctrl
+      position: {x: -3.33679623e-06, y: .000594869489, z: .00283817528}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Ear_Ctrl
+      position: {x: -.00234888378, y: .00462585129, z: .000244638213}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Ear_Ctrl
+      position: {x: .00234085554, y: .00462584849, z: .00025732661}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Shoulder_Ctrl
+      position: {x: .00401403988, y: 6.36332188e-05, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Arm_Ctrl
+      position: {x: .00329880998, y: -6.82999962e-05, z: -2.01227917e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Root_joint
+      position: {x: 3.33679623e-06, y: .0092869252, z: 0}
+      rotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine01_joint
+      position: {x: -.00178791315, y: 3.97360092e-19, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine02_joint
+      position: {x: -.00213620788, y: 4.7433845e-19, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine03_joint
+      position: {x: -.00167181483, y: 3.71339239e-19, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Neck_ioint
+      position: {x: -.000812687795, y: 1.79977557e-19, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head_joint
+      position: {x: -.000696589472, y: 1.55583006e-19, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Ear_joint
+      position: {x: -.00462584849, y: .00234085554, z: .00025732661}
+      rotation: {x: .36906001, y: .92940557, z: 1.80305701e-15, w: 1.64175801e-15}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Ear_End_joint
+      position: {x: .00160599605, y: 8.31530755e-09, z: -1.01833147e-24}
+      rotation: {x: -6.71235633e-33, y: 4.85234636e-17, z: .396224141, w: .918153822}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head_End_joint
+      position: {x: -.00534051936, y: 1.18611713e-18, z: 0}
+      rotation: {x: 0, y: 0, z: .707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Ear_joint
+      position: {x: -.00462585129, y: -.00234888378, z: .000244638213}
+      rotation: {x: 0, y: 0, z: .36906001, w: .92940557}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Ear_End_joint
+      position: {x: -.00160601467, y: -2.220446e-18, z: 0}
+      rotation: {x: 0, y: 0, z: .396224141, w: .918153822}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Jaw_joint
+      position: {x: -.000594869489, y: -3.33679623e-06, z: .00283817528}
+      rotation: {x: -.518442273, y: .480850935, z: .480850935, w: .518442273}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Jaw_joint_End
+      position: {x: -.00201310217, y: 2.220446e-18, z: -8.93996954e-19}
+      rotation: {x: .0265810899, y: -.706607044, z: .0265810899, w: .706607044}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Shoulder_joint
+      position: {x: -.000413226109, y: .00202799309, z: 0}
+      rotation: {x: .767508626, y: .641038656, z: -5.80770046e-16, w: -7.51932588e-16}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Arm_joint
+      position: {x: .00201494922, y: 6.01430798e-08, z: -7.36540337e-24}
+      rotation: {x: -9.04703609e-16, y: 5.98434654e-16, z: -.0791034475, w: .996866405}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Elbow_joint
+      position: {x: .00329951686, y: -6.91043311e-08, z: 6.37353713e-20}
+      rotation: {x: -1.01020442e-15, y: -3.90273706e-17, z: .00285156793, w: .999995947}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Hand_joint
+      position: {x: .00388130615, y: 4.62393537e-08, z: 7.22800113e-20}
+      rotation: {x: -2.4076225e-35, y: -1.09088141e-17, z: -.0132123986, w: .999912739}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Shoulder_joint
+      position: {x: -.00041320821, y: -.00203466765, z: 0}
+      rotation: {x: 0, y: 0, z: .767508626, w: .641038656}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Arm_joint
+      position: {x: -.00201493292, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -.0791034475, w: .996866405}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Elbow_joint
+      position: {x: -.00329951895, y: 4.440892e-18, z: 0}
+      rotation: {x: 0, y: 0, z: .00285156793, w: .999995947}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Hand_joint
+      position: {x: -.00388130336, y: -8.65973927e-17, z: 0}
+      rotation: {x: 0, y: 0, z: -.0132123986, w: .999912739}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Hip_joint
+      position: {x: .000430281681, y: .00200102315, z: 0}
+      rotation: {x: .000269784825, y: .0338836536, z: .999419868, w: -.00343949837}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Knee_joint
+      position: {x: -.00361783709, y: 5.64164875e-05, z: 0}
+      rotation: {x: -1.2505568e-17, y: -8.01948295e-16, z: -6.05839892e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Ankle_joint
+      position: {x: -.00263105892, y: -6.66219103e-06, z: -.000634319673}
+      rotation: {x: -.0338838212, y: .000269784068, z: -.00343941129, w: .999419868}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Ball_joint
+      position: {x: -.00115627528, y: -5.87905415e-05, z: .000544264971}
+      rotation: {x: 1.13275489e-09, y: 4.87696272e-10, z: -1.82084037e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Foot_joint
+      position: {x: -.000135156515, y: -5.81902823e-05, z: .00217256532}
+      rotation: {x: 8.62596039e-08, y: 8.62595968e-08, z: -.707106829, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_BigToe_joint
+      position: {x: -.000963264378, y: -.000148739782, z: .000995559036}
+      rotation: {x: -2.18470309e-08, y: .673379898, z: 2.39856295e-08, w: .739296675}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_BigToe_End_joint
+      position: {x: -.00119856058, y: -2.48995426e-19, z: -2.60405741e-05}
+      rotation: {x: 0, y: -.673380017, z: -0, w: .739296615}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_MiddleToe_joint
+      position: {x: .000115073235, y: -9.48602101e-05, z: .00105450326}
+      rotation: {x: -2.25778081e-08, y: .695905447, z: 2.32989734e-08, w: .71813345}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_MiddleToe_End_joint
+      position: {x: -.00130971312, y: -3.01812925e-19, z: -7.95832057e-06}
+      rotation: {x: 0, y: -.695905566, z: -0, w: .71813339}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_LittleToe_joint
+      position: {x: .000968820415, y: -6.89642329e-05, z: .00109351776}
+      rotation: {x: 7.60099161e-15, y: -1.27959908e-07, z: 3.24438574e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_LittleToe_End_joint 1
+      position: {x: -5.551115e-19, y: 1.20413079e-05, z: .0010753161}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Hip_joint
+      position: {x: .000430281681, y: -.00177067786, z: 0}
+      rotation: {x: 1.325592e-16, y: 7.41248884e-09, z: 1, w: -7.52435947e-10}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Knee_joint
+      position: {x: -.00361783709, y: -2.7755575e-19, z: 0}
+      rotation: {x: 8.39859504e-32, y: -1.61260899e-16, z: -4.4408921e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Ankle_joint
+      position: {x: -.00263105892, y: -1.110223e-18, z: -.000634319673}
+      rotation: {x: -7.10221144e-08, y: 7.72955955e-23, z: 3.34304886e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Ball_joint
+      position: {x: -.00115627528, y: 7.44921378e-19, z: .000544264971}
+      rotation: {x: 2.06884176e-09, y: -1.27108019e-10, z: -3.32554784e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Foot_joint
+      position: {x: -.000135156515, y: 8.30391036e-06, z: .00217256555}
+      rotation: {x: 3.68956918e-08, y: 3.68956918e-08, z: -.707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_LittleToe_joint
+      position: {x: -.00122626498, y: -.000148739724, z: .000995559036}
+      rotation: {x: 4.73530326e-10, y: .673379958, z: -5.19884358e-10, w: .739296615}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_LittleToe_End_joint
+      position: {x: -.00119856058, y: -2.48995426e-19, z: -2.60405741e-05}
+      rotation: {x: 0, y: -.673380017, z: -0, w: .739296615}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_MiddleToe_joint
+      position: {x: -.000371577218, y: -9.48602246e-05, z: .00105450314}
+      rotation: {x: 4.89361607e-10, y: .695905507, z: -5.04992659e-10, w: .71813339}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_MiddleToe_End_joint
+      position: {x: -.00130971312, y: -3.01812925e-19, z: -7.95832057e-06}
+      rotation: {x: 0, y: -.695905566, z: -0, w: .71813339}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_BigToe_joint
+      position: {x: .000699451251, y: -6.89643057e-05, z: .00109351752}
+      rotation: {x: -6.54781416e-17, y: -5.54263444e-08, z: -7.03204772e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_BigToe_end_joint
+      position: {x: -5.551115e-19, y: 1.20413079e-05, z: .00130206242}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: nurbsCube1
+      position: {x: .00199193438, y: .00580946449, z: .00493860664}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: nurbsCube2
+      position: {x: -.00183973543, y: .00580946449, z: .00493860664}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: nurbsCube3
+      position: {x: .0018861806, y: .00572043983, z: .00678117014}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1.66630816, y: 1.66630816, z: 1.66630816}
+      transformModified: 1
+    - name: nurbsCube4
+      position: {x: -.00176950451, y: .00572043983, z: .00678117014}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1.66630816, y: 1.66630816, z: 1.66630816}
+      transformModified: 1
+    - name: Pedo_Bear_Body
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Teddy_Bear_Mesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_Eye
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Nose
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_Eye
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
